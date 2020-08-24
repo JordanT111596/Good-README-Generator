@@ -1,51 +1,51 @@
-# TESTER
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# ${data.title.toUpperCase()}
 
-  ## Description
 
-  I'm testing my generator
 
-  ## Table of Contents
+## Description
 
-  * [Installation](#installation)
+Hopefully I finally got this to work
 
-  * [Usage](#usage)
+## Table of Contents
 
-  * [License](#license)
+* [Installation](#installation)
 
-  * [Contributing](#contributing)
+* [Usage](#usage)
 
-  * [Tests](#tests)
+* [License](#license)
 
-  * [Questions](#questions)
+* [Contributing](#contributing)
 
-  ## Installation
+* [Tests](#tests)
 
-  To install the necessary dependencies, run the following command in the terminal:
-  ---
-  npm i
-  ---
+* [Questions](#questions)
 
-  ## Usage
+## Installation
 
-  That this is a test of the app
+To install the necessary dependencies, run the following command in the terminal:
+```
+npm i
+```
 
-  ## License
+## Usage
 
-  This project is licensed under the MIT license
+Know that I am just testing this
 
-  ## Contributing
+## License
 
-  Submit a pull request
+This project is not currently licensed
 
-  ## Tests
+## Contributing
 
-  To run tests, run the following command in the terminal:
-  ---
-  npm test
-  ---
+Contribute your congratulations
 
-  ## Questions
-  
-  If you have any questions about the repository, open an issue or contact me directly at JordanT111596@gmail.com. You can find more of my work at JordanT111596.
-  
+## Tests
+
+To run tests, run the following command in the terminal:
+```
+npm test
+```
+
+## Questions
+
+If you have any questions about the repository, open an issue or contact me directly at ${data.email}. You can find more of my work at [JordanT111596](https://github.com/JordanT111596).
