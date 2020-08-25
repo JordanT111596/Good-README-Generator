@@ -20,8 +20,8 @@ function generateMarkdown(data) {
   }
 
   //returns the entire markdown document with filled in user input
-  return "# ${data.title.toUpperCase()}\n\n" + licenseBadge + "\n\n## Description\n\n" + data.description + "\n\n## Table of Contents\n\n* [Installation](#installation)\n\n* [Usage](#usage)\n\n* [License](#license)\n\n* [Contributing](#contributing)\n\n* [Tests](#tests)\n\n* [Questions](#questions)\n\n## Installation\n\nTo install the necessary dependencies, run the following command in the terminal:\n```\n" + data.install +
-    "\n```\n\n## Usage\n\n" + data.usage + "\n\n## License\n\n" + licenseText + "\n\n## Contributing\n\n" + data.contribute + "\n\n## Tests\n\nTo run tests, run the following command in the terminal:\n```\n" + data.test + "\n```\n\n## Questions\n\nIf you have any questions about the repository, open an issue or contact me directly at ${data.email}. You can find more of my work at [" + data.username + "](https://github.com/" + data.username + ").";
+  return "# " + data.title.toUpperCase() + "\n\n" + licenseBadge + "\n\n## Description\n\n" + data.description + "\n\n## Table of Contents\n\n* [Installation](#installation)\n\n* [Usage](#usage)\n\n* [License](#license)\n\n* [Contributing](#contributing)\n\n* [Tests](#tests)\n\n* [Questions](#questions)\n\n## Installation\n\nTo install the necessary dependencies, run the following command in the terminal:\n```\n" + data.install +
+    "\n```\n\n## Usage\n\n" + data.usage + "\n\n## License\n\n" + licenseText + "\n\n## Contributing\n\n" + data.contribute + "\n\n## Tests\n\nTo run tests, run the following command in the terminal:\n```\n" + data.test + "\n```\n\n## Questions\n\nIf you have any questions about the repository, open an issue or contact me directly at " + data.email + ". You can find more of my work at [" + data.username + "](https://github.com/" + data.username + ").";
 }
 
 module.exports = generateMarkdown;
