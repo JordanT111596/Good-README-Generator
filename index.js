@@ -1,5 +1,8 @@
+//makes sure inquirer is used
 const inquirer = require("inquirer");
+//makes sure fs is used
 const fs = require("fs");
+//makes sure function for generating the document is used
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -56,7 +59,13 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName + '.md', data, error => error ? console.error(error) : console.log(`${fileName + '.md'} generated!`));
+    fs.writeFile(fileName + '.md', data, err => { 
+    if (err) {
+        return console.log(err);
+      }
+    
+      console.log("README.md Successfully Created!");
+    });
 }
 
 // function to initialize program
