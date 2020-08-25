@@ -50,4 +50,4 @@ If you have any questions about the repository, open an issue or contact me dire
 
 ## Demo Gif
 
-![Image of Deployed ReadMe Generator](utils/Good-README-Generator-Demo.gif?raw=true "Image of the Deployed Weather Dashboard")
+![Image of Deployed ReadMe Generator](utils/Good-README-Generator-Demo.gif?raw=true "Image of the Deployed ReadMe Generator")
