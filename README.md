@@ -1,6 +1,6 @@
 # GOOD README GENERATOR
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
 ## Description
 
@@ -29,15 +29,15 @@ npm i
 
 ## Usage
 
-This repository was made using nothing but a little effort and some Node.js. Hopefully it saves everybody a lot of time as they make their new ReadMe's. Enjoy!
+This repository was made for saving everybody some valuable time when creating their ReadMe's! Hope you enjoy!
 
 ## License
 
-This project is licensed under the MIT license
+This project is not currently licensed
 
 ## Contributing
 
-If you would like to contribute to this repository, submit a pull request or contact me using the information below!
+If you'd like to contribute to this repository, just submit a pull request or contact me using the information below!
 
 ## Tests
 

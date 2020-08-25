@@ -16,7 +16,7 @@ function generateMarkdown(data) {
     var licenseText = "This project is licensed under the BSD 3 license";
   } else if (data.license === "None") {
     var licenseBadge = "";
-    var licenseText = "This project is not currently licensed";
+    var licenseText = "This project is not currently licensed.";
   }
 
   //returns the entire markdown document with filled in user input
